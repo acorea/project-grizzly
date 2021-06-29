@@ -32,4 +32,4 @@ def clean_coin(coin):
         coin_df = pd.read_csv(coin_path, names=coin_header, index_col=False).iloc[:, clean_columns]
         coin_df.to_csv(coin_dest, index=False)
 
-clean_coin(os.getcwd())
+clean_coin("bitcoin_database")
