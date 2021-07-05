@@ -6110,6 +6110,7 @@ id,tweet,created_at,noun_phrases,polarity,subjectivity
 1145807256220360705,"@flcnhvy Yeah, exactly 😀",2019-07-01 14:31:52,"['@ flcnhvy', 'yeah']",0.25,0.25
 1145805587969478657,"Yep, order online at  https://t.co/46TXqRrsdr in 2 mins &amp; car delivered direct to home",2019-07-01 14:25:14,['yep'],0.1,0.4
 1145700762678263808,@Alpsoy66 Is this true @CGrantWSJ?,2019-07-01 07:28:42,"['alpsoy66', 'true @', 'cgrantwsj']",0.35,0.65
+<<<<<<< HEAD
 1145155868909948928,"@NebraskaJR @Ninja FWIW, based on calcs I did 10 years ago, cross-over point for Li-ion beating kerosene is ~400 Wh/kg. High cycle batteries are just over 300 Wh/kg today, but probably exceed 400 in ~5 years.",2019-06-29 19:23:29,"['nebraskajr', 'ninja fwiw', 'cross-over point', 'li-ion', 'wh/kg', 'high cycle batteries', 'wh/kg', '~5 years']",0.16,0.5399999999999999
 1145149274809761793,"@NebraskaJR @Ninja Jet A (kerosene) has much higher energy density than Li-ion, but electric motors weigh much less &amp; convert stored energy to motion better than combustion engines",2019-06-29 18:57:17,"['nebraskajr', 'ninja jet', 'energy density', 'li-ion', 'electric motors', 'combustion engines']",0.19444444444444445,0.35555555555555557
 1145115024114896896,"@Ninja Yes, but still a bit too limited on range. That will change in coming years as battery energy density improves.",2019-06-29 16:41:11,"['ninja', 'battery energy density improves']",-0.07142857142857142,0.14285714285714285
@@ -7799,3 +7800,5 @@ id,tweet,created_at,noun_phrases,polarity,subjectivity
 1070388894875545600,"@DJSnM Pump is single string. Some landing systems are not redundant, as landing is considered ground safety critical, but not mission critical. Given this event, we will likely add a backup pump &amp; lines.",2018-12-05 10:46:14,"['djsnm pump', 'ground safety', 'backup pump']",0.005714285714285716,0.6028571428571429
 1070387162892259329,@Dragonmaurizio We may use it for an internal SpaceX mission,2018-12-05 10:39:21,"['dragonmaurizio', 'spacex']",0.0,0.0
 1070386554068119553,"@markkrieger Yes, cutaway was a mistake. We will show all footage, good or bad.",2018-12-05 10:36:55,['@ markkrieger'],5.551115123125783e-17,0.6333333333333333
+=======
+>>>>>>> ryan_elontwitter
