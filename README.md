@@ -1,7 +1,7 @@
 # project-grizzly
 Project 1 UCSD Extension Data Analytics Bootcamp
 
-# Correlation Between Elon Musk Twitter and Bitcoin Values
+# Correlation Between Elon Musk's Twitter and Bitcoin Values
 What this dataset is looking for is to see when Elon Musk tweets about bitcoin, if it influences the value of the coin when he does.
 
 Tools & Databases Used:
