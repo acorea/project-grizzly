@@ -37,12 +37,20 @@ while (end_year != current_year or end_month != current_month):
         current_year = current_year + 1
         current_month = 1
     
-    print(len(first_df.index))
+    #print(len(first_df.index))
 
 
 print(first_df.head())
 
 milli = 1562328240000
 temp = pd.to_datetime(milli, unit='ms').to_pydatetime()
-print(temp.strftime('%H:%M:%S'))
+print(temp.strftime('%Y-%m-%d %H:%M:%S'))
 
+
+milli = 1562328059999
+temp = pd.to_datetime(milli, unit='ms').to_pydatetime()
+print(temp.strftime('%Y-%m-%d %H:%M:%S'))
+
+
+# DOGEUSDT_df = pd.read_csv(os.getcwd() +  "/Cleaned/DOGEUSDT.csv")
+# print(DOGEUSDT_df.head())
