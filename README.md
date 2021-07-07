@@ -18,7 +18,6 @@ What this data will be collecting:
 Our methods and observation directions:
 - First we'll be using Textblob to create a function that can read all the tweets and identify when selected words are being used. Is this case we'll be looking for "Telsa", "Bitcoin", "Dogecoin, and all other phrases within those categories that we identify.
 - Using that new DataFrame we will be able to compare those specific tweets in time to the value of the bitcoin that matches that date & time. In order to improve accuracy we'll be looking between 5 and 30 minute intervals and calculating the percent change between them.
-- We can then use 30 minutes before and after a tweet to check the trojectory of the coin value.
 - Using percent change we can create a scatter plot to see overall if his tweets have had a positive or negative influence over bitcoin value.
 - Lastly we can find out if there is any correlation between how many times he tweets in a day vs the amount of trades that happened in a day.
 - We're bringing in Dogecoin data as well so that we can test this against another coin.
