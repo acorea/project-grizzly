@@ -14,7 +14,7 @@ What this data will be collecting:
 - All Elon Musk tweets from 2019 to 2021 using Twint.
 - All Bitcoin values and trades from 2019 to 2021 using Klines Binance Data.
 - All Dogecoin values and trades from 2019 to 2021 using Klines Binance Data.
-- 
+ 
 Our methods and observation directions:
 - First we'll be using Textblob to create a function that can read all the tweets and identify when selected words are being used. Is this case we'll be looking for "Telsa", "Bitcoin", "Dogecoin, and all other phrases within those categories that we identify.
 - Using the new DataFrame we compared tweets containing the specific values above within a certain timeframe, to the value of bitcoin that correlates to the same timeframe. In order to improve accuracy we'll be looking between 5 and 30 minute intervals and calculating the percent change of the coin during those intervals.
